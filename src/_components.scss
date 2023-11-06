@@ -56,39 +56,7 @@
     }
   }
 
-#bg1 {
-    background-image: url(img/bg1.png); 
-    @apply bg-no-repeat bg-cover w-full bg-top;
-}
-#bg2 {
-    background-image: url(img/bg2.png); 
-    @apply bg-no-repeat bg-contain w-full bg-bottom;
-}
-#bg3 {
-    background-image: url(img/bg5.png); 
-    @apply bg-no-repeat bg-cover w-full bg-top;
-}
-#map {
-    background-image: url(img/map.png); 
-    @apply bg-no-repeat bg-cover w-full bg-center;
-}
-#banner1 {
-    background-image: url(img/banner1.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
-}
-#banner2 {
-    background-image: url(img/banner2.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
-}
-#banner3 {
-    background-image: url(img/banner3.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
-}
-#banner4 {
-    background-image: url(img/banner4.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
-}
-#banner5 {
-    background-image: url(img/banner5.png);
-    @apply bg-cover md:bg-fixed bg-center bg-no-repeat aspect-[5/2] md:aspect-[3/1];
+#bg {
+    background-image: url(img/bg.png); 
+    @apply bg-repeat bg-top;
 }
