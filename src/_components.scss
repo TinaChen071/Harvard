@@ -9,7 +9,7 @@
         @apply max-w-7xl w-full mx-auto px-4 py-8 sm:px-6 lg:px-36 md:py-24 gap-6 md:gap-16 flex flex-col text-gray-900
     }
     .nav__BTN {
-        @apply font-medium text-gray-600 hover:text-blue-500 whitespace-nowrap
+        @apply text-lg text-white hover:text-custom-beige whitespace-nowrap
     }
     .nav__SubBTN {
         @apply flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-600 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 

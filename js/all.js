@@ -31,7 +31,6 @@ $(document).ready(function () {
 });
 
 
-
 // ToTop BTN
 const backToTopBtn = document.getElementById('backToTopBtn');
 
@@ -66,22 +65,18 @@ function toggleButtonVisibility() {
 toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
 
+// Nav
+const nav = document.getElementById('nav');
 
-// map
-$(document).ready(function() {
-  // Select the icon and content elements
-  var $icon = $('#taiwan');
-  var $content = $('#taiwanTag');
+function scrollNav() {
+  if (window.scrollY > 200) {
+    nav.classList.remove('py-3');
+    nav.classList.add('py-0','transition-all', 'duration-300');
+  } else {
+    nav.classList.remove('py-0');
+    nav.classList.add('py-3','transition-all', 'duration-300');
+  }
+}
 
-  // Define the hover effect
-  $icon.hover(
-    function() {
-      // On hover (mouse enter), change the content color
-      $content.addClass('text-blue-500').removeClass('text-black');
-    },
-    function() {
-      // On hover out (mouse leave), reset the content color
-      $content.removeClass('text-blue-500').addClass('text-black');
-    }
-  );
-});
+scrollNav();
+window.addEventListener('scroll', scrollNav);
