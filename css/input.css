@@ -41,35 +41,11 @@ html {
   .nav__SubBTN {
     @apply flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-600 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500;
   }
-  .logo__img {
-    @apply w-16 sm:w-24 grayscale group-hover/item:grayscale-0 transition duration-150 ease-in-out;
-  }
-  .logo__text {
-    @apply text-sm sm:text-base font-semibold text-gray-600 group-hover/item:text-blue-500 transition duration-150 ease-in-out;
-  }
-  .newsCard__wrapper {
-    @apply shadow-md hover:shadow-lg rounded-xl  overflow-hidden border-2 border-gray-50 hover:border-blue-300 transition duration-300 ease-in-out;
-  }
-  .newsImg {
-    @apply w-2/5 md:w-1/2 overflow-hidden aspect-square;
-  }
-  .newsContent__wrapper {
-    @apply w-3/5 md:w-1/2 flex flex-col gap-3 sm:gap-4 p-4 lg:px-4 lg:py-5 bg-white h-fit;
-  }
-  .button {
-    @apply py-2 px-5 w-fit justify-center items-center gap-2 rounded-full border border-blue-500 font-medium bg-white text-blue-500 group-hover:text-white shadow-sm align-middle group-hover:bg-blue-500 group-focus:outline-none group-focus:ring-2 group-focus:ring-offset-2 group-focus:ring-offset-white group-focus:ring-blue-600 transition-all text-sm;
+  .afterText {
+    @apply after:ml-0.5 after:text-custom-brown/5 after:text-9xl after:absolute after:left-0 after:bottom-0;
   }
   .toTop__BTN {
     @apply vertical__center  text-center text-sm md:text-base bg-custom__primary hover:bg-gray-900 transition duration-150 ease-out hover:ease-in rounded-full text-white px-3 py-1 md:px-5 md:py-2 -top-2 md:top-5 lg:top-10;
-  }
-  .client__logo {
-    @apply flex flex-col gap-2 px-4 py-1 sm:px-14 sm:py-3 bg-white/60 border sm:border-2 border-gray-50 text-center items-center rounded-xl hover:shadow-lg transition duration-300 ease-in-out;
-  }
-  .pagination {
-    @apply text-gray-600 hover:text-sky-300 p-4 inline-flex items-center transition-all;
-  }
-  .tab {
-    @apply hs-tab-active:bg-blue-400 hs-tab-active:text-white relative min-w-0 flex-1 bg-white p-2 md:p-4 text-gray-500 hover:text-gray-700 text-sm font-medium text-center overflow-hidden hover:bg-gray-50 focus:z-10;
   }
 }
 @screen sm {

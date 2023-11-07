@@ -172,9 +172,9 @@
   </section>
 
   <!-- News Section -->
-  <section class="grid lg:grid-cols-2">
+  <section class="relative grid lg:grid-cols-2">
     <!-- Left -->
-    <div class="bg-custom-beige/40 flex flex-col md:px-36 md:py-28 md:gap-24">
+    <div class="bg-custom-beige/40 flex flex-col md:px-36 md:py-28 md:gap-24 after:content-['News'] afterText">
       <!-- Intro -->
       <div>
         <h1 class="lg:text-6xl text-custom-darkBrown md:py-8">
@@ -196,6 +196,36 @@
     </div>
 
     <!-- Right -->
+    <div class="grid">
+      <!-- Card 1 -->
+      <a href="" class="grid grid-cols-2 h-fit group ">
+        <!-- Img -->
+        <div class="bg-[url('https://images.unsplash.com/photo-1632829882891-5047ccc421bc?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-no-repeat bg-center group-hover:bg-200% transition-all duration-300"></div>
+        <!-- Content -->
+        <div class="p-8 bg-white">
+          <time class="text-sm text-custom-brown inline-flex mb-4">
+            2023/10/20
+          </time>
+
+          <h3 class="text-custom-darkBrown text-xl line-clamp-2 mb-2">
+            【睡眠門診】-健檢方案限時預約中-哈佛健診
+          </h3>
+
+          <p class="text-stone-500 line-clamp-2 mb-6">
+            台灣睡眠醫學學會針對40到65歲民眾的最新調查發現，全台慢性失眠症盛行率高達10.7％，也就是全台有超過230萬人罹患慢性失眠症，平均每9人就有1人受慢性失眠之苦。
+          </p>
+
+          <!-- Button -->
+          <button type="button" class="py-1.5 px-3 inline-flex items-center gap-x-1 text-sm border border-custom-brown text-custom-brown ">
+          閱讀更多
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        </div>
+      </a>
+      <!-- Card 2 -->
+      
+      <!-- Card 3 -->
+    </div>
   </section>
 
   <!-- Cooperate Section -->
