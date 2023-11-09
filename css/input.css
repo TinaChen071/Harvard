@@ -42,7 +42,7 @@ html {
   width: 300px;
   height: 300px;
   margin: 10% auto;
-  color: #D6CDC6;
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -84,7 +84,7 @@ html {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
   50% {
     border-color: white;
@@ -92,7 +92,7 @@ html {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
 }
 
@@ -100,7 +100,7 @@ html {
   0% {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
   50% {
     border-color: white;
@@ -108,7 +108,7 @@ html {
   100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
 }
 @layer components {

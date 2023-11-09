@@ -1358,6 +1358,10 @@ input:checked + .toggle-bg{
   top: -8rem;
 }
 
+.-top-72{
+  top: -18rem;
+}
+
 .bottom-0{
   bottom: 0px;
 }
@@ -1402,8 +1406,60 @@ input:checked + .toggle-bg{
   top: 100%;
 }
 
-.bottom-24{
-  bottom: 6rem;
+.-bottom-1\/5{
+  bottom: -20%;
+}
+
+.-bottom-64{
+  bottom: -16rem;
+}
+
+.-bottom-1\/4{
+  bottom: -25%;
+}
+
+.top-1\/4{
+  top: 25%;
+}
+
+.bottom-1\/2{
+  bottom: 50%;
+}
+
+.bottom-1\/4{
+  bottom: 25%;
+}
+
+.top-\[\]{
+  top: ;
+}
+
+.top-\[5\/6\]{
+  top: 5/6;
+}
+
+.top-64{
+  top: 16rem;
+}
+
+.-top-64{
+  top: -16rem;
+}
+
+.top-24{
+  top: 6rem;
+}
+
+.top-96{
+  top: 24rem;
+}
+
+.top-12{
+  top: 3rem;
+}
+
+.top-128{
+  top: 32rem;
 }
 
 .z-10{
@@ -1580,10 +1636,6 @@ input:checked + .toggle-bg{
   height: 100%;
 }
 
-.h-64{
-  height: 16rem;
-}
-
 .w-1\/2{
   width: 50%;
 }
@@ -1626,6 +1678,10 @@ input:checked + .toggle-bg{
 
 .w-7{
   width: 1.75rem;
+}
+
+.w-96{
+  width: 24rem;
 }
 
 .w-\[45px\]{
@@ -1705,6 +1761,18 @@ input:checked + .toggle-bg{
 .scale-\[1\.4\]{
   --tw-scale-x: 1.4;
   --tw-scale-y: 1.4;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-50{
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-75{
+  --tw-scale-x: .75;
+  --tw-scale-y: .75;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2353,6 +2421,14 @@ input:checked + .toggle-bg{
   opacity: 1;
 }
 
+.opacity-20{
+  opacity: 0.2;
+}
+
+.opacity-30{
+  opacity: 0.3;
+}
+
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -2505,7 +2581,7 @@ html {
   width: 300px;
   height: 300px;
   margin: 10% auto;
-  color: #D6CDC6;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2538,7 +2614,7 @@ html {
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
 
   50% {
@@ -2547,7 +2623,7 @@ html {
 
   100% {
     transform: rotate(360deg);
-    border-color: white;
+    border-color: #D6CDC6;
   }
 }
 

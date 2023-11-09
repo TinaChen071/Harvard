@@ -67,6 +67,7 @@ window.addEventListener('scroll', toggleButtonVisibility);
 
 // Nav
 const nav = document.getElementById('nav');
+const logo = document.getElementById('logo');
 const mq = window.matchMedia("(min-width: 1024px)");
 
 function scrollNav() {
@@ -74,9 +75,11 @@ function scrollNav() {
     if (window.scrollY > 200) {
       nav.classList.remove('py-3');
       nav.classList.add('py-0', 'transition-all', 'duration-300');
+      logo.classList.add('scale-75', 'transition-all', 'duration-300');
     } else {
       nav.classList.remove('py-0');
       nav.classList.add('py-3', 'transition-all', 'duration-300');
+      logo.classList.remove('scale-75');
     }
   } else {
     nav.classList.add('py-3');
@@ -88,19 +91,19 @@ window.addEventListener('scroll', scrollNav);
 
 // Draw Flower
 $(document).ready(function() {
-  var triangle = $("#triangle")[0]; // Get the DOM element
-  var length = triangle.getTotalLength();
+  var flower = $("#flower")[0]; // Get the DOM element
+  var length = flower.getTotalLength();
 
-  triangle.style.strokeDasharray = length;
-  triangle.style.strokeDashoffset = length;
+  flower.style.strokeDasharray = length;
+  flower.style.strokeDashoffset = length;
 
   $(window).scroll(myFunction);
 
   function myFunction() {
     var scrollpercent = (($(window).scrollTop() / ($(document).height() - $(window).height())));
     
-    var draw = length * scrollpercent*2;
+    var draw = length * scrollpercent*3.5;
 
-    triangle.style.strokeDashoffset = length - draw;
+    flower.style.strokeDashoffset = length - draw;
   }
 });
