@@ -66,28 +66,28 @@ toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
 
 // Nav
-// const nav = document.getElementById('nav');
-// const logo = document.getElementById('logo');
-// const mq = window.matchMedia("(min-width: 1024px)");
+const nav = document.getElementById('nav');
+const logo = document.getElementById('logo');
+const mq = window.matchMedia("(min-width: 1024px)");
 
-// function scrollNav() {
-//   if (mq.matches) {
-//     if (window.scrollY > 200) {
-//       nav.classList.remove('py-3');
-//       nav.classList.add('py-0', 'transition-all', 'duration-300');
-//       logo.classList.add('scale-75', 'transition-all', 'duration-300');
-//     } else {
-//       nav.classList.remove('py-0');
-//       nav.classList.add('py-3', 'transition-all', 'duration-300');
-//       logo.classList.remove('scale-75');
-//     }
-//   } else {
-//     nav.classList.add('py-3');
-//   }
-// }
+function scrollNav() {
+  if (mq.matches) {
+    if (window.scrollY > 200) {
+      nav.classList.remove('py-3');
+      nav.classList.add('py-0', 'transition-all', 'duration-300');
+      logo.classList.add('scale-75', 'transition-all', 'duration-300');
+    } else {
+      nav.classList.remove('py-0');
+      nav.classList.add('py-3', 'transition-all', 'duration-300');
+      logo.classList.remove('scale-75');
+    }
+  } else {
+    nav.classList.add('py-3');
+  }
+}
 
-// scrollNav();
-// window.addEventListener('scroll', scrollNav);
+scrollNav();
+window.addEventListener('scroll', scrollNav);
 
 // Draw Flower
 $(document).ready(function() {
