@@ -19,8 +19,6 @@
     "@tailwindcss/line-clamp": "^0.4.4",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
-    "browserslist": "^4.22.1",
-    "caniuse-lite": "^1.0.30001561",
     "flowbite": "^2.0.0",
     "preline": "^1.9.0",
     "superfish": "^1.7.10",

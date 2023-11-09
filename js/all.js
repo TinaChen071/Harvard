@@ -31,7 +31,6 @@ $(document).ready(function () {
 });
 
 
-
 // ToTop BTN
 const backToTopBtn = document.getElementById('backToTopBtn');
 
@@ -66,22 +65,47 @@ function toggleButtonVisibility() {
 toggleButtonVisibility();
 window.addEventListener('scroll', toggleButtonVisibility);
 
+// Nav
+const nav = document.getElementById('nav');
+const logo = document.getElementById('logo');
+const mq = window.matchMedia("(min-width: 1024px)");
 
-// map
-$(document).ready(function() {
-  // Select the icon and content elements
-  var $icon = $('#taiwan');
-  var $content = $('#taiwanTag');
-
-  // Define the hover effect
-  $icon.hover(
-    function() {
-      // On hover (mouse enter), change the content color
-      $content.addClass('text-blue-500').removeClass('text-black');
-    },
-    function() {
-      // On hover out (mouse leave), reset the content color
-      $content.removeClass('text-blue-500').addClass('text-black');
+function scrollNav() {
+  if (mq.matches) {
+    if (window.scrollY > 200) {
+      nav.classList.remove('py-3');
+      nav.classList.add('py-0', 'transition-all', 'duration-300');
+      logo.classList.add('scale-75', 'transition-all', 'duration-300');
+    } else {
+      nav.classList.remove('py-0');
+      nav.classList.add('py-3', 'transition-all', 'duration-300');
+      logo.classList.remove('scale-75');
     }
-  );
+  } else {
+    nav.classList.add('py-3');
+  }
+}
+
+scrollNav();
+window.addEventListener('scroll', scrollNav);
+
+// Draw Flower
+$(document).ready(function() {
+  var flower = $("#flower")[0]; // Get the DOM element
+  var length = flower.getTotalLength();
+
+  flower.style.strokeDasharray = length;
+  flower.style.strokeDashoffset = length;
+
+  $(window).scroll(myFunction);
+
+  function myFunction() {
+    var scrollpercent = (($(window).scrollTop() / ($(document).height() - $(window).height())));
+    
+    var draw = length * scrollpercent*3.5;
+
+    flower.style.strokeDashoffset = length - draw;
+  }
 });
+
+// location.reload();
