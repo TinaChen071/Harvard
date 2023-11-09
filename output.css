@@ -1358,10 +1358,6 @@ input:checked + .toggle-bg{
   top: -8rem;
 }
 
-.-top-72{
-  top: -18rem;
-}
-
 .bottom-0{
   bottom: 0px;
 }
@@ -1402,64 +1398,12 @@ input:checked + .toggle-bg{
   top: 50%;
 }
 
-.top-full{
-  top: 100%;
-}
-
-.-bottom-1\/5{
-  bottom: -20%;
-}
-
-.-bottom-64{
-  bottom: -16rem;
-}
-
-.-bottom-1\/4{
-  bottom: -25%;
-}
-
-.top-1\/4{
-  top: 25%;
-}
-
-.bottom-1\/2{
-  bottom: 50%;
-}
-
-.bottom-1\/4{
-  bottom: 25%;
-}
-
-.top-\[\]{
-  top: ;
-}
-
-.top-\[5\/6\]{
-  top: 5/6;
-}
-
-.top-64{
-  top: 16rem;
-}
-
-.-top-64{
-  top: -16rem;
-}
-
-.top-24{
-  top: 6rem;
-}
-
-.top-96{
-  top: 24rem;
-}
-
-.top-12{
-  top: 3rem;
-}
-
 .top-128{
   top: 32rem;
+}
+
+.top-full{
+  top: 100%;
 }
 
 .z-10{
@@ -1762,21 +1706,15 @@ input:checked + .toggle-bg{
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.scale-\[1\.4\]{
-  --tw-scale-x: 1.4;
-  --tw-scale-y: 1.4;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.scale-50{
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .scale-75{
   --tw-scale-x: .75;
   --tw-scale-y: .75;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.scale-\[1\.4\]{
+  --tw-scale-x: 1.4;
+  --tw-scale-y: 1.4;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2427,10 +2365,6 @@ input:checked + .toggle-bg{
 
 .opacity-20{
   opacity: 0.2;
-}
-
-.opacity-30{
-  opacity: 0.3;
 }
 
 .shadow{
