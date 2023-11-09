@@ -107,3 +107,5 @@ $(document).ready(function() {
     flower.style.strokeDashoffset = length - draw;
   }
 });
+
+// location.reload();
