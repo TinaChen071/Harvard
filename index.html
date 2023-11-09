@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>哈佛健康管理</title>
+    <title>第一郵捷–全方位海空運規劃、進出口整櫃/併箱、貨物報關、卡車運輸服務</title>
 
     <!-- Main css -->
     <link rel="stylesheet" href="output.css">
 
     <!-- Swiper -->
-    <!-- <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="node_modules/swiper/swiper-bundle.min.css">
 
     <!-- favicon -->
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon.ico">
@@ -18,250 +18,539 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" /> -->
 
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+
+    <!-- Flag Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.11.0/css/flag-icons.min.css"/>
+    
     
 </head>
-<body id="bg">
-  <!-- Navbar -->
-  <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-between lg:flex-nowrap w-full bg-custom-darkBrown backdrop-blur-md text-sm py-3 z-100 transition-padding duration-300" id="nav">
-    <nav class="relative max-w-7xl w-full mx-auto px-4 md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
-      <!-- Logo & 漢堡選單 -->
-      <div class="flex items-center justify-between">
-        <!-- Logo -->
-        <a class="flex items-center group" id="logo" href="javascript:void(0);" aria-label="Brand">
-          <div class="bg-white group-hover:bg-custom-beige text-2xl text-custom-darkBrown p-1 text-center rounded-sm mr-3 transition-all duration-300">
-            <span class="inline-block w-7 h-6">H</span>
-          </div>
-          <p class="font-sans text-2xl text-white whitespace-nowrap font-normal group-hover:text-custom-beige transition-all duration-300">哈佛健康管理</p>
-        </a>
+<body>
+  <!-- Main + Service Section -->
+  <section id="bg1">
+    <!-- Navbar -->
+    <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white/50 backdrop-blur-md border-b border-gray-200 text-sm py-3 lg:py-0 z-100">
+      <nav class="relative max-w-7xl w-full mx-auto px-4 md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
+        <!-- Logo & 漢堡選單 -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <a class="" href="javascript:void(0);" aria-label="Brand">
+            <img src="img/Logo-L.png" class="hidden xl:block md:h-16 object-contain" alt="">
+            <img src="img/Logo-S.png" class="xl:hidden h-10 object-contain w-3/4 sm:w-fit" alt="">
+          </a>
 
-        <!-- 漢堡選單 -->
-        <div class="md:hidden">
-          <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border border-white font-medium bg-custom-darkBrown text-gray-700 shadow-sm align-middle hover:bg-custom-darkBrown/50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-white focus:ring-white/50 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
-            <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-            </svg>
-            <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
-              <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-            </svg>
-          </button>
+          <!-- 漢堡選單 -->
+          <div class="md:hidden">
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-blue-500 text-gray-700 shadow-sm align-middle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              <svg class="hs-collapse-open:block hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        
+        <!-- 按鈕 -->
+        <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
+          <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 py-4">
+            
+            <!-- 關於我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
+                關於我們
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
+              </button>
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="dist/about.html">
+                  公司介紹
+                </a>
+
+                <a class="nav__SubBTN" href="dist/affiliated.html">
+                  關係企業
+                </a>
+                <a class="nav__SubBTN" href="dist/client.html">
+                  集團客戶
+                </a>
+              </div>
+            </div>
+            <!-- 最新消息 -->
+            <a class="nav__BTN" href="dist/news.html">最新消息</a>
+            <!-- 服務項目 -->
+            <a class="nav__BTN" href="dist/service.html">服務項目</a>
+            <!-- 聯絡我們 -->
+            <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+              <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
+                聯絡我們
+                <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
+              </button>
+
+              <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                <a class="nav__SubBTN" href="dist/taiwan.html">
+                  臺灣據點
+                </a>
+
+                <a class="nav__SubBTN" href="dist/world.html">
+                  全球據點
+                </a>
+                <a class="nav__SubBTN" href="dist/contact.html">
+                  線上留言
+                </a>
+              </div>
+            </div>
+
+            <!-- 語言選擇 -->
+            <div class="flex items-center md:order-2">
+              <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-full cursor-pointer bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out">
+                <div class="rounded-full overflow-hidden mr-2 flex items-center w-5 h-5">
+                  <span class="fi fi-tw scale-150"></span>
+                </div>
+                中文 (繁體)
+              </button>
+              <!-- Dropdown -->
+              <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow " id="language-dropdown-menu">
+                <ul class="py-2 font-medium" role="none">
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-us scale-[1.4]"></span>
+                        </div>              
+                        English (US)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-tw scale-[1.4]"></span>
+                        </div> 
+                        中文 (繁體)
+                      </div>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
+                      <div class="inline-flex items-center">
+                        <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
+                          <span class="fi fi-cn scale-[1.4]"></span>
+                        </div> 
+                        中文 (簡體)
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main div -->
+    <div class="max-w-7xl w-full mx-auto md:px-4 lg:px-36 md:py-12 grid md:grid-cols-2 gap-20 text-gray-900">
+      <!-- Title + Search bar -->
+      <div class="my-auto hidden md:block">
+        <div class="flex flex-col gap-5 pb-16">
+          <h1 class="text-4xl">全方位個性化專業服務</h1>
+          <p class="text-lg font-semibold text-sky-400">
+            海空運承攬｜進出口整櫃/併箱｜貨物報關｜卡車運輸服務
+          </p>
+        </div>
+        
+        <!-- Search bar -->
+        <div>
+          <label for="hs-trailing-button-add-on-with-icon-and-button" class="sr-only">Label</label>
+          <div class="relative flex rounded-md shadow-sm">
+            <input type="text" id="hs-trailing-button-add-on-with-icon-and-button" name="hs-trailing-button-add-on-with-icon-and-button" class="py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="貨物查詢">
+            <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+              <svg class="h-4 w-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+            </div>
+            <button type="button" class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-sm">查詢</button>
+          </div>
         </div>
       </div>
       
-      <!-- 按鈕 -->
-      <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block">
-        <div class="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:items-center md:justify-end md:gap-y-0 md:gap-x-7 md:mt-0 md:pl-7 py-4">
+      <!-- Carousel -->
+      <div id="controls-carousel" class="relative w-full shadow-lg" data-carousel="slide">
+        <!-- Mobile Searchbar -->
+        <div class="absolute z-30 h-full md:hidden flex items-center justify-center w-full">
+          <label for="hs-trailing-button-add-on-with-icon-and-button" class="sr-only">Label</label>
+            <div class="relative flex rounded-md shadow-sm min-w-fit xs:w-2/3">
+              <input type="text" id="hs-trailing-button-add-on-with-icon-and-button" name="hs-trailing-button-add-on-with-icon-and-button" class=" py-3 px-4 pl-11 block w-full border-gray-200 shadow-sm rounded-l-lg text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 placeholder:text-gray-400" placeholder="貨物查詢">
+              <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+                <svg class="h-4 w-4 text-gray-500" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+              </div>
+              <button type="button" class="py-3 px-4 inline-flex flex-shrink-0 justify-center items-center rounded-r-lg border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:z-10 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all text-sm">查詢</button>
+            </div>
+        </div>
+        <!-- Carousel wrapper -->
+        <div class="relative h-56 overflow-hidden md:rounded-lg md:h-96">
+            <!-- Item 1 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://images.unsplash.com/photo-1529074963764-98f45c47344b?q=80&w=2686&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full h-full
+                 -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="...">
+            </div>
+            <!-- Item 2 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+                <img src="https://images.unsplash.com/photo-1504716325983-cb91edab7e7d?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="...">
+            </div>
+            <!-- Item 3 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://images.unsplash.com/photo-1591644251677-0539b7c121cf?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="...">
+            </div>
+            <!-- Item 4 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://images.unsplash.com/photo-1570710891163-6d3b5c47248b?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="...">
+            </div>
+            <!-- Item 5 -->
+            <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                <img src="https://images.unsplash.com/photo-1559297434-fae8a1916a79?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover" alt="...">
+            </div>
+        </div>
+        <!-- Slider controls -->
+        <button type="button" class="hidden absolute top-0 left-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 group-focus:outline-none transition duration-300 ease-in-out">
+                <svg class="w-4 h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+                </svg>
+                <span class="sr-only">Previous</span>
+            </span>
+        </button>
+        <button type="button" class="hidden absolute top-0 right-0 z-30 md:flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+            <span class="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/50 group-focus:outline-none transition duration-300 ease-in-out">
+                <svg class="w-4 h-4 text-white " aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+                </svg>
+                <span class="sr-only">Next</span>
+            </span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Our Service div -->
+    <div class="section ">
+      <!-- Title -->
+      <div class="flex flex-col gap-y-1 sm:gap-y-3">
+        <p class="text-sm md:text-lg font-semibold text-blue-600">
+          Our Services
+        </p>
+        <h1 class="text-xl md:text-5xl">我們提供專業物流中轉服務</h1>
+      </div>
+
+      <!-- 服務項目 -->
+      <div class="flex flex-col items-center sm:px-6 gap-5 sm:gap-6 lg:gap-28">
+       <div class="grid grid-cols-2 justify-between w-full sm:gap-x-14 md:gap-x-28 gap-y-5 sm:gap-y-10 ">
+         <!-- 海空運承攬 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <div class="flex items-center justify-center w-7 h-7">
+              <i class="icon text-2xl sm:text-3xl text-white fa-solid fa-plane-up  text-center"></i>
+            </div>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 my-auto sm:mt-0">
+            <p class="text-base md:text-xl font-semibold">海空運承攬</p>
+            <p class="hidden sm:block text-gray-700 md:text-xl">涵蓋來往世界各地的海空運進出口貨物，服務包括整櫃和併櫃，提供訂艙、報關、裝船等服務。</p>
+          </div>
+         </div>
+         <!-- 進出口報關 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <div class="flex items-center justify-center w-7 h-7">
+              <i class="icon text-2xl sm:text-3xl text-white fa-solid fa-trailer  text-center"></i>
+            </div>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 my-auto sm:mt-0">
+            <p class="text-base md:text-xl font-semibold">進出口報關</p>
+            <p class="hidden sm:block text-gray-700 md:text-xl">第一郵捷的專業團隊瞭解各國複雜的法規和程序，為客戶的國際貿易提供頂尖專業進出口報關服務。</p>
+          </div>
+         </div>
+         <!-- 卡車運輸 -->
+         <div class="flex flex-row gap-2 md:gap-8">
+          <!-- Icon -->
+          <div class="p-3 sm:p-4 h-fit rounded-lg sm:rounded-2xl bg-sky-300 shadow-md">
+            <div class="flex items-center justify-center w-7 h-7">
+              <i class="icon text-2xl sm:text-3xl text-white fa-solid fa-truck  text-center"></i>
+            </div>
+          </div>
+          <!-- Text -->
+          <div class="flex flex-col gap-2 my-auto sm:mt-0">
+            <p class="text-base md:text-xl font-semibold">卡車運輸</p>
+            <p class="hidden sm:block text-gray-700 md:text-xl">第一郵捷擁有多種卡車型號，以滿足不同尺寸和重量的貨物運輸需求，確保貨物準時送達目的地。</p>
+          </div>
+         </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cooperate Section -->
+  <section class="py-10 md:py-16 lg:py-24 bg-sky-50 shadow-lg sm:shadow-xl flex flex-col sm:gap-20 text-gray-900" id="map">
+    <!-- Title -->
+    <div class="hidden md:flex flex-col gap-y-1 sm:gap-y-3 px-4 lg:px-36 max-w-7xl w-full mx-auto">
+      <p class="text-sm md:text-lg font-semibold text-blue-600">
+        Our Client
+      </p>
+      <h1 class="text-xl md:text-5xl">集團客戶</h1>
+    </div>
+
+    <!-- Logo Carousel -->
+    <div class="w-full mx-auto ">
+      <div class="owl-carousel owl-theme owl-loaded owl-lazy">
+        <div class="owl-stage-outer ">
+            <div class="owl-stage flex gap-16 items-center">
+              <!-- logo 1 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo1.png" alt="">
+                </div>
+                <p class="logo__text">中華郵政</p>
+              </div>
+              <!-- logo 2 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo2.png" alt="">
+                </div>
+                <p class="logo__text">中囯郵政</p>
+              </div>
+              <!-- logo 3 -->
+              <div class="owl-item px-6 sm:px-16 w-24 flex flex-col items-center gap-2 group/item">
+                <div class="logo__img">
+                  <img src="img/logo3.png" alt="">
+                </div>
+                <p class="logo__text">高雄港港務公司</p>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+    <!-- <div class='overflow-hidden wrapper'>
+      <div class='carousel grid grid-cols-6 gap-12'>
+        <div class='inline-block'>
           
-          <!-- 關於我們 -->
-          <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
-            <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
-              關於我們
-              <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
-            </button>
-
-            <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-              <a class="nav__SubBTN" href="dist/about.html">
-                品牌精神
-              </a>
-
-              <a class="nav__SubBTN" href="dist/affiliated.html">
-                專業團隊
-              </a>
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
             </div>
+            <p class="logo__text">長榮航空</p>
           </div>
-          <!-- 最新消息 -->
-          <a class="nav__BTN" href="dist/news.html">最新消息</a>
-          <!-- 服務據點 -->
-          <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
-            <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
-              服務據點
-              <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
-            </button>
-
-            <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-              <a class="nav__SubBTN" href="dist/taiwan.html">
-                大安院區
-              </a>
-              <a class="nav__SubBTN" href="dist/world.html">
-                內湖院區
-              </a>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
             </div>
+            <p class="logo__text">長榮航空</p>
           </div>
-          <!-- 關係企業 -->
-          <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
-            <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
-              關係企業
-              <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
-            </button>
-
-            <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
-              <a class="nav__SubBTN" href="dist/taiwan.html">
-                儀器設備
-              </a>
-              <a class="nav__SubBTN" href="dist/world.html">
-                健康檢查
-              </a>
-              <a class="nav__SubBTN" href="dist/contact.html">
-                保健食品
-              </a>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
             </div>
+            <p class="logo__text">長榮航空</p>
           </div>
-          <!-- 衛教影音 -->
-          <a class="nav__BTN" href="dist/service.html">衛教影音</a>
-
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
+        </div>
+        <div class='inline-block'>
+          
+          <div class="owl-item w-24 flex flex-col items-center gap-2 group/item">
+            <div class="logo__img">
+              <img src="img/logo1.png" alt="">
+            </div>
+            <p class="logo__text">長榮航空</p>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-  <!-- Draw Flower -->
-  <div class="absolute left-0 top-128 z-50 opacity-20 hidden lg:block">
-    <svg id="mySVG" class="w-96"  viewBox="0 0 553 473" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path id="flower" fill="none"  stroke-width="4" opacity="1" d="M-4.64874 2.29403C-4.34638 9.1528 20.0376 18.8464 49.0942 45.7557C60.1811 56.0232 81.039 96.4454 92.0886 106.509C119.352 131.338 147.624 150.201 150.038 155.578C165.98 191.103 238.766 197.191 267.316 220.556C279.536 230.556 295.568 244.244 309.348 251.905C324.529 260.345 342.187 267.426 354.671 279.91C362.684 287.924 374.847 292.572 384.129 299.001C396.354 307.469 414.692 315.267 418.986 330.266C420.267 334.743 425.183 338.938 428.917 341.013C435.126 344.465 440.77 350.924 447.303 353.44C454.677 356.28 463.359 350.158 470.089 347.573C480.223 343.68 487.406 335.711 499.415 330.016C521.267 319.653 531.202 320.677 542.031 313.228C547.422 309.519 546.799 304.307 547.139 297.773C547.482 291.183 552.589 284.828 549.416 281.771C538.179 270.95 515.821 298.146 493.106 305.43C474.875 311.276 469.059 314.157 445.484 317.09C441.079 317.638 435.805 318.596 432.581 321.82C428.098 326.302 436.913 334.126 441.083 334.649C444.852 335.123 448.4 337.032 452.235 337.801C456.426 338.642 462.915 339.197 466.369 341.73C475.344 348.315 484.678 355.446 494.765 360.494C503.281 364.756 516.02 382.164 525.237 368.844C529.213 363.099 527.177 353.722 528.614 347.241C529.448 343.48 530.869 342.291 529.425 338.256C527.849 333.849 521.116 327.928 517.125 325.629C506.714 319.631 490.303 320.81 478.813 321.848C466.428 322.966 453.375 323.008 441.364 326.277C437.869 327.228 435.179 329.124 431.523 329.579C427.763 330.047 429.482 337.105 429.61 339.503C430.138 349.417 440.732 358.693 444.167 367.61C445.782 371.804 448.084 378.304 450.628 381.745C454.958 387.601 454.013 398.406 456.36 405.437C457.288 408.215 455.761 417.87 457.839 418.67C466.053 421.834 475.624 423.969 484.308 425.711C490.866 427.026 498.691 425.091 505.054 424.09C509.977 423.316 516.014 415.789 519.914 413.235C522.174 411.755 525.034 409.645 526.363 407.195C530.38 399.79 535.009 393.782 529.454 385.959C524.844 379.465 519.373 374.242 513.108 369.367C508.896 366.091 502.765 364.923 497.992 362.66C490.478 359.097 481.527 358.893 473.404 358.888C471.25 358.887 469.149 358.319 467.195 357.496C463.467 355.924 458.437 356.637 454.452 356.181C445.57 355.164 437.409 350.893 431.165 344.649C424.256 337.74 416.281 332.413 408.569 326.461C404.192 323.084 397.716 344.133 397.432 347.978C396.299 363.337 401.861 379.885 403.424 395.113C404.355 404.192 406.37 413.114 407.279 422.152C407.994 429.263 407.716 437.983 409.662 444.779C411.196 450.141 408.031 456.221 409.345 461.279C410.415 465.398 410.147 467.405 414.822 469.206C421.189 471.658 428.642 469.311 434.67 467.176C445.346 463.393 454.117 458.046 463.004 450.938C463.682 450.396 475.332 441.231 475.332 440.572C475.33 437.871 473.454 434.346 472.304 431.993C470.574 428.452 470.058 424.327 467.969 421.045C465.733 417.534 464.474 413.794 461.836 410.259C449.741 394.053 435.918 381.069 421.377 367.188C415.263 361.352 407.371 357.873 403.151 350.105C399.02 342.501 394.509 347.644 392.044 353.529C388.046 363.076 384.384 373.427 379.646 382.437C374.259 392.682 374.726 403.948 372.886 415.025C371.475 423.522 373.23 432.895 373.474 441.245C373.567 444.431 372.772 448.121 373.112 451.169C373.742 456.805 382.551 457.506 386.962 458.325C396.378 460.074 408.133 454.094 415.791 449.276C417.605 448.134 422.877 445.423 423.751 443.849C425.216 441.211 422.854 436.409 423.296 433.434C424.22 427.205 419.153 418.149 417.402 412.029C414.17 400.743 415.459 388.932 413.705 377.475C412.359 368.688 411.363 358.72 408.542 350.272C406.109 342.985 407.96 333.6 407.956 325.848" stroke="#806A58" stroke-width="4" stroke-linecap="round"/>
-      </svg>
-  </div>
-  <!-- Carousel Section -->
-  <section class="relative md:max-w-7xl w-full mx-auto  lg:py-24 lg:px-36 overflow-hidden">
-    <!-- Blob -->
-    <div class="hidden lg:block z-50 absolute -top-32 -right-8 ">
-      <div class="blob"></div>
-    </div>
-    
-    <!-- Carousel -->
-    <div id="default-carousel" class="relative w-full" data-carousel="slide">
-      <!-- Carousel wrapper -->
-      <div class="relative aspect-video overflow-hidden">
-          <!-- Item 1 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&q=80&w=2454&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 2 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://images.unsplash.com/photo-1585128792020-803d29415281?auto=format&fit=crop&q=80&w=2574&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 3 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?auto=format&fit=crop&q=80&w=2535&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 4 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&q=80&w=2592&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-          <!-- Item 5 -->
-          <div class="hidden duration-700 ease-in-out" data-carousel-item>
-              <img src="https://images.unsplash.com/photo-1600210491369-e753d80a41f3?auto=format&fit=crop&q=80&w=2574&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-          </div>
-      </div>
-      <!-- Slider indicators -->
-      <div class="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
-          <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
-      </div>
-      <!-- Slider controls -->
-      <button type="button" class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-              </svg>
-              <span class="sr-only">Previous</span>
-          </span>
-      </button>
-      <button type="button" class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-          <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-              <svg class="w-4 h-4 text-white dark:text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-              </svg>
-              <span class="sr-only">Next</span>
-          </span>
-      </button>
-    </div>
+    </div> -->
   </section>
 
   <!-- News Section -->
-  <section class="relative grid md:grid-cols-2">
-    <!-- Left -->
-    <div class="bg-custom-beige/40 flex flex-col px-4 py-8 sm:p-16 xl:px-36 xl:py-28 gap-10 lg:gap-24 after:content-['News'] afterText">
-      <!-- Intro -->
-      <div>
-        <h1 class="text-2xl lg:text-6xl text-custom-darkBrown py-4 lg:py-8">
-          哈佛健康管理
-        </h1>
-        <p class="text-sm md:text-base text-stone-500 leading-loose">
-          哈佛健診成立至今已近30年，一直是民眾心中優質健檢的首選品牌。而哈佛健檢於2020年通過JCI國際醫療評鑑，成為台灣首家通過JCI美國國際醫療品質認證的健診中心，證明哈佛健診的服務與品質值得信賴，這是重大的里程碑，也將臺灣健康檢查理念帶入新時代。
-        </p>
-      </div>
-
-      <div class="z-10 flex justify-between md:flex-col">
-        <!-- News Title -->
-        <div class="text-custom-brown border-l-4 md:border-l-8 border-custom-darkBrown/20 pl-5 md:mb-8">
-          <h2 class="text-2xl lg:text-6xl pb-1 lg:pb-4">
-            最新消息
-          </h2>
-          <p class="text-sm lg:text-xl">News</p>
+  <section id="bg2">
+    <div class="section">
+      <!-- Title -->
+      <div class="flex justify-between items-end">
+        <!-- Title -->
+        <div class="flex flex-col gap-y-1 sm:gap-y-3">
+          <p class="text-sm md:text-lg font-semibold text-blue-600">
+            News
+          </p>
+          <h1 class="text-xl md:text-5xl">最新消息</h1>
         </div>
 
-        <!-- Read More Button -->
-        <a href="https://developer.mozilla.org/zh-TW/docs/Web/HTML/Element/time" class="text-custom-brown flex items-center group readMore">
-          <p class="pr-3 group-hover:text-custom-darkBrown transition-all ease-in-out duration-300">
+        <!-- More BTN -->
+        <a href="dist/news.html" class="flex gap-2 sm:gap-4 items-center group text-gray-900 hover:text-blue-500 transition duration-300 ease-in-out">
+          <p class="text-sm md:text-lg">
             查看更多
           </p>
-          <button class="rounded-full relative align-middle text-center border border-custom-brown/20 transition-all ease-in-out duration-300  h-[45px] w-[45px] group-hover:text-custom-darkBrown"
-          style="transition-timing-function: cubic-bezier(.4,.08,0,.97);"
-          >
-            <svg class="absolute left-0 top-0 svg" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <circle class="circle" cx="50" cy="50" r="48" stroke="#3A3532" stroke-width="3" fill="none"  />
-             </svg>
-             <i class="fa-solid fa-arrow-right"></i>
-          </button>
-          
+          <div class="relative right-0 group-hover:-right-1 ">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
         </a>
+        
       </div>
 
-    </div>
+      <!-- News Card -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10 h-fit">
+        <!-- Card 1 -->
+        <a href="dist/news-1.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-lg sm:rounded-xl h-fit">
+            <!-- img -->
+            <div class="newsImg bg-no-repeat bg-center bg-cover bg-[url('img/news-default.png')]">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+            </div>
 
-    <!-- Right -->
-    <div class="grid">
-      <!-- Card 1 -->
-      <a href="" class="grid grid-cols-2 h-fit group ">
-        <!-- Img -->
-        <div class="overflow-hidden">
-          <div class="bg-[url('https://images.unsplash.com/photo-1632829882891-5047ccc421bc?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-no-repeat bg-center group-hover:scale-125 transition-all duration-300 w-full h-full"></div>
-        </div>
-        
-        <!-- Content -->
-        <div class="p-4 md:p-8 bg-white group-hover:bg-custom-beige transition-all">
-          <time class="text-xs md:text-sm text-custom-brown inline-flex mb-3 sm:mb-4">
-            2023/10/20
-          </time>
+            <!-- Content -->
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-09-19
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
+                    臺北關籲請業者報運貨品出口，應依規定正確標示產地
+                  </p>
+                  <div class="">
+                    <p class="line-clamp-2 text-gray-700 md:text-xl">
+                      臺北關表示，依貿易法第17條第2款規定，出進口人不得有未依規定標示來源識別、產地或標示不實之行為。又依貨品輸出管理辦法規定，輸出貨品應於貨品本身或內外包裝上標示產地，如係在我國產製者，應標示「中華民國製造」、「中華民國臺灣製造」或「臺灣製造」，或以同義外文標示之。業者輸出貨品倘經查獲未依規定標示產地或標示不實者，海關將依「海關配合進出口貿易管理作業規定」第7點規定，移請經濟部國際貿易局(下稱貿易局)查處。
+                    </p>
+                  </div>
+                </div>
+                
+                <button type="button" class="hidden xs:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Card 2 -->
+        <a href="dist/news-2.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="newsImg bg-no-repeat bg-center bg-cover bg-[url('img/news-default.png')]">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+            </div>
 
-          <h3 class="text-custom-darkBrown text-base md:text-xl line-clamp-2 mb-2">
-            【睡眠門診】-健檢方案限時預約中-哈佛健診
-          </h3>
+            <!-- Content -->
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-07-05
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
+                    臺北關籲請業者正確申報出口貨樣統計方式
+                  </p>
+                  <div class="">
+                    <p class="line-clamp-2 text-gray-700 md:text-xl">
+                      臺北關表示，海關對出口貨樣是否屬關稅法第53條規定之貨品已定有明確規範，貨物輸出人報運貨樣出口時，應一併考量該貨樣是否原貨復運進口，並依關稅法、出口貨物報關驗放辦法等規定正確申報統計方式，以免損及權益。
+                    </p>
+                  </div>
+                </div>
+                
+                <button type="button" class="hidden xs:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Card 3 -->
+        <a href="dist/news-3.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="newsImg bg-no-repeat bg-center bg-cover bg-[url('img/news-default.png')]">
+              <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all">
+            </div>
 
-          <p class="text-sm md:text:base text-stone-500 line-clamp-2 sm:mb-6">
-            台灣睡眠醫學學會針對40到65歲民眾的最新調查發現，全台慢性失眠症盛行率高達10.7％，也就是全台有超過230萬人罹患慢性失眠症，平均每9人就有1人受慢性失眠之苦。
-          </p>
+            <!-- Content -->
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-06-27
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
+                    商民申請進口貨物稅則預先審核時應提供正確貨物資料
+                  </p>
+                  <div class="">
+                    <p class="line-clamp-2 text-gray-700 md:text-xl">
+                      基隆關表示，貨物進口前如已正確瞭解稅則號別，除可預估應繳之進口稅費，亦可知其貨品輸入規定，預先備妥相關資料或向主管機關申請，嗣貨物實際進口時可加速通關，如對進口貨物稅則號別有疑義，得依「進口貨物稅則預先審核實施辦法」按規定格式填寫申請書，並檢附原廠型錄及說明書等相關資料或樣品向進口地海關申請，審核結果將書面答復之，且其結果海關一體適用。
+                    </p>
+                  </div>
+                </div>
+                
+                <button type="button" class="hidden xs:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+        <!-- Card 4 -->
+        <a href="dist/news-4.html" class="newsCard__wrapper group" >
+          <div class="flex bg-white rounded-lg sm:rounded-xl">
+            <!-- img -->
+            <div class="newsImg bg-no-repeat bg-center bg-cover bg-[url('img/news-default.png')]">
+              <!-- <img src="https://i.pinimg.com/564x/19/9e/af/199eafc77ef77645ef25b04187332b51.jpg" alt="" class="object-cover w-full h-full group-hover:scale-125 transition-all"> -->
+            </div>
 
-          <!-- Button -->
-          <button type="button" class="hidden py-1.5 px-3 sm:inline-flex items-center gap-x-1 text-sm border border-custom-brown text-custom-brown transition-all duration-300 bg-gradient-to-r from-transparent via-transparent to-custom-brown  bg-[length:800px]  group-hover:bg-[100px] group-hover:text-white">
-          閱讀更多
-          <i class="fa-solid fa-chevron-right"></i>
-        </button>
-        </div>
-      </a>
-      <!-- Card 2 -->
-      
-      <!-- Card 3 -->
+            <!-- Content -->
+            <div class="newsContent__wrapper">
+              <time class="text-xs font-semibold text-sky-400">
+                2023-06-20
+              </time>
+              <div class="flex flex-col gap-6 justify-between h-full">
+                <div class="flex flex-col gap-2">
+                  <p class="line-clamp-2 text-lg md:text-3xl text-gray-900">
+                    轉運及轉口貨物通關管理辦法112年5月實施 留意非以貨櫃裝運之轉運及轉口貨物相關規定
+                  </p>
+                  <div class="">
+                    <p class="line-clamp-2 text-gray-700 md:text-xl">
+                      基隆關表示，為規範轉運、轉口貨物之申報方式、通關程序、管理及其他相關事宜，財政部以本（112）年5月22日台財關字第1121011767號令，訂定施行轉運及轉口貨物通關管理辦法（下稱本辦法），就轉運申請書類別、免申報轉運申請書之條件、指定之業者申報之申請書類別、其應負之責任義務與轉運及轉口貨物之移動安全等事項予以規範，請業者注意。
+                    </p>
+                  </div>
+                </div>
+                
+                <button type="button" class="hidden xs:block button ">
+                  閱讀更多
+                </button>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
-
-  
-
-  
 
   <!-- Footer Section -->
   <footer class=" bg-blue-900 text-white ">
@@ -334,12 +623,12 @@
       
 
   <!-- jQuery main -->
-  <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.6.3.min.js"></script>
   <script src="js/all.js"></script>
 
   <!-- Preline -->
   <script src="node_modules/preline/dist/preline.js"></script>
-  <script src="node_modules/flowbite/dist/flowbite.min.js"></script>
+  <script src="node_modules/flowbite/dist//flowbite.min.js"></script>
 
   <!-- Swiper -->
   <script src="node_modules/swiper/swiper-bundle.min.js"></script>

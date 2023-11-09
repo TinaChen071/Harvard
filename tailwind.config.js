@@ -2,17 +2,17 @@
 module.exports = {
   content: ["./dist/*.{html,js}","*.html","./js/*.{html,js}","node_modules/preline/dist/*.js","node_modules/flowbite/**/*.js"],
   theme: {
+    // screens: {
+    //   'xs': '425px',
+    //   'sm': '640px',
+    //   'md': '768px',
+    //   'lg': '1024px',
+    //   'xl': '1280px',
+    //   '2xl': '1536px',
+    // },
     extend: {
       screens: {
         'xs': '480px'
-      },
-      colors: {
-        custom: {
-          darkBrown: '#3A3532',
-          brown: '#806A58',
-          beige: '#D6CDC6',
-          gray: '#F1F1F1'
-        }
       },
       spacing: {
         '128': '32rem',
@@ -39,7 +39,7 @@ module.exports = {
       }
     },
     fontFamily: {
-      logo:['Noto Sans']
+      num:['Water Brush']
     },
     
   },
