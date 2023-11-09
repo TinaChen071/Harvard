@@ -18,27 +18,27 @@
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Owl Carousel -->
-    <!-- <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css"> -->
+    
 
     
 </head>
 <body id="bg">
   <!-- Navbar -->
-  <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-start lg:flex-nowrap w-full bg-white/50 backdrop-blur-md border-b border-gray-200 text-sm py-3 lg:py-0 z-100">
+  <header class="sticky top-0 inset-x-0 flex flex-wrap lg:justify-between lg:flex-nowrap w-full bg-custom-darkBrown backdrop-blur-md text-sm py-3 z-100 transition-padding duration-300" id="nav">
     <nav class="relative max-w-7xl w-full mx-auto px-4 md:flex md:items-center md:justify-between lg:px-36" aria-label="Global">
       <!-- Logo & 漢堡選單 -->
       <div class="flex items-center justify-between">
         <!-- Logo -->
-        <a class="" href="javascript:void(0);" aria-label="Brand">
-          <img src="img/Logo-L.png" class="hidden xl:block md:h-16 object-contain" alt="">
-          <img src="img/Logo-S.png" class="xl:hidden h-10 object-contain w-3/4 sm:w-fit" alt="">
+        <a class="flex items-center group" id="logo" href="javascript:void(0);" aria-label="Brand">
+          <div class="bg-white group-hover:bg-custom-beige text-2xl text-custom-darkBrown p-1 text-center rounded-sm mr-3 transition-all duration-300">
+            <span class="inline-block w-7 h-6">H</span>
+          </div>
+          <p class="font-sans text-2xl text-white whitespace-nowrap font-normal group-hover:text-custom-beige transition-all duration-300">哈佛健康管理</p>
         </a>
 
         <!-- 漢堡選單 -->
         <div class="md:hidden">
-          <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-blue-500 text-gray-700 shadow-sm align-middle hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-500 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
+          <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border border-white font-medium bg-custom-darkBrown text-gray-700 shadow-sm align-middle hover:bg-custom-darkBrown/50 focus:outline-none focus:ring-1 focus:ring-offset-1 focus:ring-offset-white focus:ring-white/50 transition-all text-sm " data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
             <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" fill="white" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
             </svg>
@@ -62,87 +62,54 @@
 
             <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
               <a class="nav__SubBTN" href="dist/about.html">
-                公司介紹
+                品牌精神
               </a>
 
               <a class="nav__SubBTN" href="dist/affiliated.html">
-                關係企業
-              </a>
-              <a class="nav__SubBTN" href="dist/client.html">
-                集團客戶
+                專業團隊
               </a>
             </div>
           </div>
           <!-- 最新消息 -->
           <a class="nav__BTN" href="dist/news.html">最新消息</a>
-          <!-- 服務項目 -->
-          <a class="nav__BTN" href="dist/service.html">服務項目</a>
-          <!-- 聯絡我們 -->
+          <!-- 服務據點 -->
           <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
             <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
-              聯絡我們
+              服務據點
               <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
             </button>
 
             <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
               <a class="nav__SubBTN" href="dist/taiwan.html">
-                臺灣據點
+                大安院區
               </a>
-
               <a class="nav__SubBTN" href="dist/world.html">
-                全球據點
+                內湖院區
+              </a>
+            </div>
+          </div>
+          <!-- 關係企業 -->
+          <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] group">
+            <button type="button" class="flex items-center w-full nav__BTN group-hover:text-blue-5">
+              關係企業
+              <i class="fa-solid fa-chevron-down ml-1.5 text-xs"></i>
+            </button>
+
+            <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-40 hidden z-10 bg-white sm:shadow-md rounded-lg p-2  before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+              <a class="nav__SubBTN" href="dist/taiwan.html">
+                儀器設備
+              </a>
+              <a class="nav__SubBTN" href="dist/world.html">
+                健康檢查
               </a>
               <a class="nav__SubBTN" href="dist/contact.html">
-                線上留言
+                保健食品
               </a>
             </div>
           </div>
+          <!-- 衛教影音 -->
+          <a class="nav__BTN" href="dist/service.html">衛教影音</a>
 
-          <!-- 語言選擇 -->
-          <div class="flex items-center md:order-2">
-            <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-white rounded-full cursor-pointer bg-blue-500 hover:bg-blue-600 transition duration-300 ease-in-out">
-              <div class="rounded-full overflow-hidden mr-2 flex items-center w-5 h-5">
-                <span class="fi fi-tw scale-150"></span>
-              </div>
-              中文 (繁體)
-            </button>
-            <!-- Dropdown -->
-            <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow " id="language-dropdown-menu">
-              <ul class="py-2 font-medium" role="none">
-                <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
-                    <div class="inline-flex items-center">
-                      <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
-                        <span class="fi fi-us scale-[1.4]"></span>
-                      </div>              
-                      English (US)
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
-                    <div class="inline-flex items-center">
-                      <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
-                        <span class="fi fi-tw scale-[1.4]"></span>
-                      </div> 
-                      中文 (繁體)
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 " role="menuitem">
-                    <div class="inline-flex items-center">
-                      <div class="rounded-full overflow-hidden mr-2 w-3.5 h-3.5 flex items-center">
-                        <span class="fi fi-cn scale-[1.4]"></span>
-                      </div> 
-                      中文 (簡體)
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </div>
-            
-          </div>
         </div>
       </div>
     </nav>
