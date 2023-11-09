@@ -67,16 +67,40 @@ window.addEventListener('scroll', toggleButtonVisibility);
 
 // Nav
 const nav = document.getElementById('nav');
+const mq = window.matchMedia("(min-width: 1024px)");
 
 function scrollNav() {
-  if (window.scrollY > 200) {
-    nav.classList.remove('py-3');
-    nav.classList.add('py-0','transition-all', 'duration-300');
+  if (mq.matches) {
+    if (window.scrollY > 200) {
+      nav.classList.remove('py-3');
+      nav.classList.add('py-0', 'transition-all', 'duration-300');
+    } else {
+      nav.classList.remove('py-0');
+      nav.classList.add('py-3', 'transition-all', 'duration-300');
+    }
   } else {
-    nav.classList.remove('py-0');
-    nav.classList.add('py-3','transition-all', 'duration-300');
+    nav.classList.add('py-3');
   }
 }
 
 scrollNav();
 window.addEventListener('scroll', scrollNav);
+
+// Draw Flower
+$(document).ready(function() {
+  var triangle = $("#triangle")[0]; // Get the DOM element
+  var length = triangle.getTotalLength();
+
+  triangle.style.strokeDasharray = length;
+  triangle.style.strokeDashoffset = length;
+
+  $(window).scroll(myFunction);
+
+  function myFunction() {
+    var scrollpercent = (($(window).scrollTop() / ($(document).height() - $(window).height())));
+    
+    var draw = length * scrollpercent*2;
+
+    triangle.style.strokeDashoffset = length - draw;
+  }
+});
